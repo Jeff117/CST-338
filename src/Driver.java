@@ -10,7 +10,6 @@ public class Driver {
         monsters.add(new Imp(15, 20, items));
         monsters.add(new Kobold(1, 5, items));
 
-
         for (Monster m : monsters){
             System.out.println(m);
         }
